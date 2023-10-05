@@ -1,9 +1,53 @@
+:root {
+    --color-cloud: #F4F4FD;
+    --color-cornflower: #E7E9FC;
+    --color-iris: #4D5AE5;
+    --color-navy_blue: #2E2F42;
+    --color-white: #FFF;
+    --color-slate: #434455;
+    --color-ocean: #404BBF;
+    --color-green: #31D0AA;
+    --color-light_slate: #8E8F99;
+    --color-modal_blue: #2E2F4266;
+    --color-grey: #2E2F42;
+    --color-dairy: #FCFCFC;
+
+
+
+}
+
 body {
 font-family: 'Roboto', sans-serif;
-color: #434455;
-background: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+color: var(--color-slate);
+background-color: var(--color-white);
 }
 
 h1 {
     font-family: 'Raleway', sans-serif;
+    color: var(--color-white);
+    text-align: center;
+}
+
+h2 {
+    color: var(--color-navy_blue);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: var(--color-navy_blue);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }

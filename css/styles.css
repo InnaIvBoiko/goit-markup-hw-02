@@ -25,6 +25,33 @@ letter-spacing: 0.32px;
 color: var(--color-slate);
 background-color: var(--color-white);
 }
+a {
+    text-decoration-line: none;
+    color: var(--color-slate);
+}
+
+a:hover,
+a:focus {
+    color: var(--color-ocean);
+}
+
+button {
+    border-radius: 4px;
+    background: var(--color-iris);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--color-white);
+}
+
+button:hover,
+button:focus {
+ 
+        background: var(--color-ocean);
+        
+}
+
+ul {
+    list-style-type: none;
+}
 
 h1 {
     font-family: 'Raleway', sans-serif;

@@ -77,10 +77,13 @@ ul {
 }
 
 .address_header {
+    font-style: normal;
+}
+
+.contacts-header {
     color: var(--color-slate);
     line-height: 1.5;
     letter-spacing: 0.32px;
-    font-style: normal;
 }
 
 /* Section Heero */
@@ -114,12 +117,12 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 .text_primary {
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .bg-light {
